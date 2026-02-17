@@ -126,7 +126,7 @@ const plugins = [
 ];
 
 export default defineConfig({
-  base: "/RM/",
+  base: "/", 
 
   plugins,
 
