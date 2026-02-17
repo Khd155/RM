@@ -47,12 +47,8 @@ export default function Header() {
       <div className="container">
         <div className="flex items-center justify-between h-20 lg:h-24">
           {/* Logo */}
-          <div className="flex items-center gap-3">
-            <div className="w-12 h-12 lg:w-16 lg:h-16 bg-accent flex items-center justify-center">
-              <span className="text-2xl lg:text-3xl font-bold text-primary-foreground font-['Playfair_Display']">
-                RM
-              </span>
-            </div>
+          <div className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity" onClick={() => scrollToSection('home')}>
+            <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663363323575/JwqVywAGtuTVKhNx.jpeg" alt="شعار الرماح الماسية" className="h-12 lg:h-16 w-auto" />
             <div className="hidden md:block">
               <h1 className="text-lg lg:text-xl font-bold text-foreground font-['Playfair_Display']">
                 مؤسسة الرماح الماسية

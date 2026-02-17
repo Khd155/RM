@@ -18,11 +18,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="text-center md:text-right">
             <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
-              <div className="w-12 h-12 bg-accent flex items-center justify-center">
-                <span className="text-2xl font-bold text-primary-foreground font-['Playfair_Display']">
-                  RM
-                </span>
-              </div>
+              <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663363323575/JwqVywAGtuTVKhNx.jpeg" alt="شعار الرماح الماسية" className="h-12 w-auto" />
               <h3 className="text-xl font-bold text-foreground font-['Playfair_Display']">
                 مؤسسة الرماح الماسية
               </h3>
